@@ -4,7 +4,7 @@ router = express.Router()
 dbconfig=require('../config.js')
 
 
-// Task 4.1
+// Task 5.1
 router.route('/customers')
 // fetch all customers
 .get(function (req, res) {
@@ -33,7 +33,7 @@ customer
     }); 
   })
 
-//   Task 4.2
+//   Task 5.2
 
 router.route('/customers/:id')
 .get(function (req, res) {
