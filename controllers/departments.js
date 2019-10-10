@@ -1,4 +1,5 @@
 
+// routes for department
 var express = require('express');
     department= require('../models/models')
     router = express.Router()

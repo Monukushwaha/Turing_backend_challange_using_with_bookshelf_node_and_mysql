@@ -1,4 +1,4 @@
-
+// routes for category 
 var express = require('express');
 category= require('../models/models')
 router = express.Router()

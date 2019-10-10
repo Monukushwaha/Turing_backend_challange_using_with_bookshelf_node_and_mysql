@@ -1,5 +1,5 @@
 Prerequisites
-In order to install and run this project locally, you would need to have the following installed on you local machine.
+In order to install and run this project locally, you would need to have the following installed on your local machine.
 
 ## Node JS
 ## Express
@@ -8,10 +8,12 @@ In order to install and run this project locally, you would need to have the fol
 ## bookshelf
 
 Run npm install or yarn to install the projects dependencies.
+$npm init >>>for dependencies
 
 Create a MySQL database and run the .sql file in the database directory to migrate the database
 *mysql -u <dbuser> -D <databasename> -p < ./src/database/dump.sql
 
+node server.js >>>>for running the app
 
 
 Request and Response Object API guide for all Endpoints link is given below: 

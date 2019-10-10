@@ -1,3 +1,4 @@
+// routes for customer
 var express = require('express');
 customer= require('../models/models')
 router = express.Router()

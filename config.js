@@ -1,4 +1,4 @@
-
+// for connecting with database
 var dbConfig = {
     client: 'mysql',
     connection:{

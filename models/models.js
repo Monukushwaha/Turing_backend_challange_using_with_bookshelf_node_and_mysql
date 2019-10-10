@@ -1,4 +1,4 @@
-// User model
+//  model for all tables 
 var Bookshelf=require('../config.js')
 
 // console.log("hey", Bookshelf);

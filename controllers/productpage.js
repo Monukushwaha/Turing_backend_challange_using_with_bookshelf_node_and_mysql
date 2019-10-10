@@ -1,4 +1,5 @@
 
+// Route for pagination implementation
 var Posts = require('../collections/posts');
 var Post = require('../models/models');
 

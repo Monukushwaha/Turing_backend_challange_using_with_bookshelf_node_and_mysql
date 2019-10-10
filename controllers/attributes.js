@@ -1,3 +1,5 @@
+// Routes for attribute table
+
 var express = require('express');
 attribute= require('../models/models')
 router = express.Router()
