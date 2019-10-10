@@ -10,6 +10,10 @@ app.use(bodyParser.json());
 app.use('/', require('./controllers/departments'));
 app.use('/', require('./controllers/categories'));
 app.use('/', require('./controllers/attributes'));
+app.use('/', require('./controllers/customers'));
+app.use('/', require('./controllers/products'));
+
+
 
 app.get('/', (req, res) => {
     res.json(global.gConfig);

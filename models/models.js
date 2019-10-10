@@ -25,3 +25,20 @@ var Attribute = Bookshelf.Model.extend({
 
 });
 module.exports = Bookshelf.model('Attribute',Attribute);
+
+// Model for customers
+
+var Customer = Bookshelf.Model.extend({
+    tableName:'customer',
+
+});
+module.exports = Bookshelf.model('Customer',Customer);
+
+
+// Model for customers
+
+var Product = Bookshelf.Model.extend({
+    tableName:'product',
+
+});
+module.exports = Bookshelf.model('Product',Product);

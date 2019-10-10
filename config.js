@@ -4,7 +4,7 @@ var dbConfig = {
     connection:{
         host     : 'localhost',
         user     : 'root',
-        password : '',
+        password : 'navgurukul',
         database : 'turing',
         charset  : 'utf8'
     }
