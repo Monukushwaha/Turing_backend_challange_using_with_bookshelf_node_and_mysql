@@ -1,16 +1,16 @@
 Prerequisites
 In order to install and run this project locally, you would need to have the following installed on you local machine.
 
-# Node JS
-# Express
-# MySQL
-# Knex
-# bookshelf
+## Node JS
+## Express
+## MySQL
+## Knex
+## bookshelf
 
 Run npm install or yarn to install the projects dependencies.
 
 Create a MySQL database and run the .sql file in the database directory to migrate the database
-mysql -u <dbuser> -D <databasename> -p < ./src/database/dump.sql
+*mysql -u <dbuser> -D <databasename> -p < ./src/database/dump.sql
 
 
 
