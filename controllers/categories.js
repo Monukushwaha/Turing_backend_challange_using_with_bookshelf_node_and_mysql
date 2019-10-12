@@ -1,6 +1,6 @@
 // routes for category 
 var express = require('express');
-category= require('../models/models')
+category= require('../models/categories')
 router = express.Router()
 dbconfig=require('../config.js')
 

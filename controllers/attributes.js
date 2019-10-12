@@ -1,7 +1,7 @@
 // Routes for attribute table
 
 var express = require('express');
-attribute= require('../models/models')
+attribute= require('../models/attributes')
 router = express.Router()
 dbconfig=require('../config.js')
 

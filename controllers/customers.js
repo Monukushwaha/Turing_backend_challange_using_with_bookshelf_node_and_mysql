@@ -1,8 +1,8 @@
 // routes for customer
 var express = require('express');
-customer= require('../models/models')
-router = express.Router()
-dbconfig=require('../config.js')
+var customer= require('../models/customers')
+var router = express.Router()
+var dbconfig=require('../config.js')
 
 
 // Task 5.1

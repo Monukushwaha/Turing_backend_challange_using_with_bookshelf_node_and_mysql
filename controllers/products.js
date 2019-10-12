@@ -1,6 +1,6 @@
 // route for product
 var express = require('express');
-product= require('../models/models')
+product= require('../models/products')
 router = express.Router()
 dbconfig=require('../config.js')
 

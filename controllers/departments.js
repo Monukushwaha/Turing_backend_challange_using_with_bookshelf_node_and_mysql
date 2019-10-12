@@ -1,7 +1,7 @@
 
 // routes for department
 var express = require('express');
-    department= require('../models/models')
+    department= require('../models/departments')
     router = express.Router()
     dbconfig=require('../config.js')
 
